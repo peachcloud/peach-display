@@ -1,0 +1,15 @@
+[package]
+name = "peach-display"
+version = "0.1.0"
+authors = ["Andrew Reid <gnomad@cryptolab.net>"]
+edition = "2018"
+
+[dependencies]
+jsonrpc = "0.10.2"
+jsonrpc-http-server = "10.0"
+linux-embedded-hal = "0.2"
+hd44780-driver = { git = "https://github.com/JohnDoneth/hd44780-driver" }
+serde = { version = "1.0.87", features = ["derive"] }
+validator = "0.8.0"
+validator_derive = "0.8.0"
+failure = "0.1.5"
